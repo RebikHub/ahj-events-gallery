@@ -7,14 +7,17 @@
   <title>Document</title>
 </head>
 <body>
-  <div id="tracker">
-    <div class="top-tasks">
-      <h2 class="top-head">TOP Tasks</h2>
-      <input type="text" class="input-text" required>
+  <div id="gallery">
+    <form action="" class="form-widget">
+      <label for="" class="lable-name">Название<input type="text" class="input-name" required></label>
+      <label for="" class="lable-src">Ссылка на изображение<input type="text" class="input-src" required></label>
+      <button type="button" class="button">Добавить</button>
+    </form>
+    <div class="images-list">
+      <div class="image" style="background-image: url(https://cdn-icons-png.flaticon.com/128/3089/3089803.png);">
+        <span class="close-image"></span>
+      </div>
     </div>
-
-    <ul class="pinned">Pinned: <span class="pinned-text">"No pinned tasks"</span></ul>
-    <ul class="all-tasks">All Tasks:</ul>
   </div>
 </body>
 </html>

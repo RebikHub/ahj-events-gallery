@@ -1,11 +1,9 @@
-import Memory from './memory';
-import Tracker from './tracker';
+import Gallery from './gallery';
 
 console.log('app started');
 
-const memory = new Memory();
-const tracker = new Tracker(memory);
+const inputName = document.querySelector('.input-name');
+const inputSrc = document.querySelector('.input-src');
+const gallery = new Gallery(inputName, inputSrc);
 
-tracker.renderDom();
-
-tracker.init(document.querySelector('.input-text'));
+gallery.init(document.querySelector('.button'));
