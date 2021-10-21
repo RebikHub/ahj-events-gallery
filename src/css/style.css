@@ -77,3 +77,20 @@ body {
     background-image: url('../img/cross.png');
     background-size: cover;
 }
+
+img {
+    width: inherit;
+    height: inherit;
+}
+
+.error {
+    position: fixed;
+    top: 100px;
+    left: 410px;
+    font-size: 12px;
+    display: none;
+    background: black;
+    padding: 5px;
+    border-radius: 5px;
+    color: #fff;
+}
